@@ -1,0 +1,125 @@
+/* author: Amritha Gopal*/
+
+.container {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* border: 2px solid; */
+    /* height: 800px; */
+}
+.menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu a {
+    padding: 10px;
+}
+.img {
+    width: 150px;
+    height: 150px;
+}
+nav {
+    /* border: 2px solid; */
+    border-right: blue;
+}
+a {
+    text-decoration: none;
+}
+/* .nav div{ */
+/* border: 1px solid; */
+/* padding: 20px; } */
+
+.Lchild {
+    /* margin-top: 30px; */
+    border-right: 1px solid rgb(216, 210, 210);
+    padding: 20px;
+    height: 800px;
+}
+
+.img2 {
+    float: left;
+}
+.NewM {
+    /* border: 2px solid; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 800px;
+    margin-left: 20px;
+}
+.NewM h4 {
+    font-size: 30px;
+    width: 500px;
+}
+.Osbert {
+    width: 100%;
+}
+.Osbert p {
+    margin-right: 20px;
+}
+.img2 {
+    padding: 20px;
+    /* margin-top: 0; */
+    /* margin-top: 5px; */
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.containerR-img {
+    margin-top: 150px;
+    /* padding: 20px; */
+    border: 1px solid rgb(165, 162, 162);
+    width: 300px;
+    height: 600px;
+    background-color: rgb(241, 237, 237);
+}
+.containerR-img h3 {
+    text-align: center;
+}
+.containerR-img-dtls {
+    display: flex;
+    justify-content: right;
+}
+.contents {
+    border: 1px solid rgb(196, 186, 186);
+    width: 300px;
+    background-color: rgb(241, 237, 237);
+}
+.contents p {
+    font-size: 15px;
+    text-align: center;
+}
+.top {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+}
+.top1 {
+    width: 700px;
+    border-bottom: 2px solid lightblue;
+    border-right: 2px solid lightblue;
+    border-left: 2px solid lightblue;
+    background-color: rgb(220, 231, 235);
+}
+
+.top1 a {
+    margin-left: 2px;
+}
+.talk {
+    border-right: 2px solid lightblue;
+}
+.edit {
+    border-bottom: 2px solid lightblue;
+    border-right: 2px solid lightblue;
+    border-left: 2px solid lightblue;
+    gap: 10px;
+    background-color: rgb(226, 239, 243);
+}
+.edit1 {
+    border-right: 2px solid lightblue;
+}
+.view {
+    border-right: 2px solid lightblue;
+    background-color: rgb(226, 239, 243);
+}
